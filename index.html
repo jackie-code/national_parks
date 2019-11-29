@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+    <h1>National Park Vacation</h1>
+    <p>. . . Where to go next . . .</p>
+    </header>
+
+    <div class="formbox">
+    <form id="js-form">
+            <section class="formsec">
+            <label for="search-term">Search for a park by state.</label>
+            <input type="text" name="search-term" id="state-search" required>
+            <p class="instructions">(Type state initials here and search for multiple states by initials followed by commas and no spaces)</p>
+            </section>
+            <br>
+            <section class="formsec">
+            <label for="max-results">Max results</label>
+            <input type="number" name="max-results" id="max-results" value="10">
+            </section>
+            <br>
+            <input class="go" type="submit" value="Go!">
+        </form>
+    </div>
+
+    <p id="js-error-message" class="error-message"></p>
+       <section id="results" class="hidden">
+          <h2>Search results</h2>
+          <ul id="results-list">
+          </ul>
+        </section>
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
