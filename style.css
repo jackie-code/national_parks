@@ -69,3 +69,12 @@
     font-family: 'Anton', sans-serif;
     color: blueviolet;
   }
+
+  #results {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  #results h2 {
+    font-family: 'Anton', sans-serif;
+  }
