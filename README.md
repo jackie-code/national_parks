@@ -11,4 +11,4 @@
 
 ###Create your own API key to run this app here:
 
-[Authenticate your API key here]((https://jackie-code.github.io/national_parks/))
+[Authenticate your API key here](https://jackie-code.github.io/national_parks/)
